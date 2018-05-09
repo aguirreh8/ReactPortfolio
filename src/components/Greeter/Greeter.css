@@ -1,8 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Oleo+Script:400,700";
 
+
 .greeter {
-	padding: 50px;
+	padding: 150px 50px 150px;
 	color: #FFF;
+	margin-bottom: 60px;
 }
 
 .name-text {
