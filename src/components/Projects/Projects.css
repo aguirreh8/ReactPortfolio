@@ -3,20 +3,12 @@
 
 .projects-holder {
   width: 100%;
-  padding: 20px 120px 40px 120px;
+  padding: 10px 20px 40px 20px;
   background-color: rgba(255, 255, 255, .8);
 }
 
-.project-component--title {
-  font-size: 40px;
-  font-family: "Varela Round", "Helvetica", "sans-serif";
-  text-shadow: 4px 2px 5px rgba(150, 150, 150, 0.71);
-  padding: 10px 80px 10px 0px;
-  margin: 10px 0px 10px 70px;
-}
-
 .gallery {
-  padding: 20px;
+  padding: 0px 30px 0px;
 }
 
 .gallery-cell {
@@ -26,22 +18,22 @@
 }
 
 .project-img {
-  width: 500px;
+  width: 450px;
   height: 300px;
   margin-left: 20px;
 }
 
 .project-title {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 30px;
   font-weight: bold;
 }
 
 .project-text {
   float: right;
-  width: 800px;
+  width: 400px;
   height: auto;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   margin-right: 20px;
 }
@@ -61,4 +53,13 @@
 
 .project-link.red {
   background-color: red;
+}
+
+@media screen and (max-width: 1366px) {
+
+  .project-img {
+    width: 450px;
+    height: 300px;
+    margin-left: 20px;
+  }
 }

@@ -4,8 +4,10 @@ import Header from "./components/Header";
 import Greeter from "./components/Greeter";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 class App extends Component {
+	
     render() {
         return (
           <div>
@@ -13,6 +15,7 @@ class App extends Component {
             <Greeter />
             <About />
             <Projects />
+            <Contact />
           </div>
         );
     }

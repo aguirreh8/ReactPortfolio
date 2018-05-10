@@ -5,7 +5,7 @@ import myPic from "../../images/me.png";
 const About = () => (
 	<div className="about-container">
 		<div className="container">
-			<p className="title">About</p>
+			<h4 className="title">About</h4>
 			<img className="profile-picture" src={myPic} alt="Henry Aguirre" title="Henry Aguirre"/>
 			<p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
