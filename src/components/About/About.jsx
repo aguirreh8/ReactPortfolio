@@ -3,7 +3,7 @@ import "./About.css";
 import myPic from "../../images/me.png";
 
 const About = () => (
-	<div className="about-container">
+	<div className="component-holder">
 		<div className="container">
 			<h4 className="title">About</h4>
 			<div className="row">

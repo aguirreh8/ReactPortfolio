@@ -1,3 +1,20 @@
+@import "https://fonts.googleapis.com/css?family=Pontano+Sans|Varela+Round";
+
+.title {
+	font-size: 40px;
+	font-family: "Varela Round", "Helvetica", "sans-serif";
+	text-shadow: 4px 2px 5px rgba(150, 150, 150, 0.71);
+	padding: 0px 0px 10px 0px;
+	margin: 20px 0px 5px 0px;
+}
+
+.component-holder {
+	width: 100%;
+	background-color: rgba(255, 255, 255, .8);
+	margin: 50px 0px 50px 0px;
+	padding: 10px 0 20px;
+}
+
 body {
 	background-image: url("./images/city.jpg");
 	background-repeat: no-repeat;

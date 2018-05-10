@@ -8,7 +8,7 @@ import phone from "../../images/phone.png"
 
 
 const Contact = () => (
-	<div className="contact-container">
+	<div className="component-holder">
 		<div className="container">
 			<h4 className="title">Contact Me</h4>
 			<div className="row">

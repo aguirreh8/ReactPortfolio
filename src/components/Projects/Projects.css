@@ -1,10 +1,6 @@
 /* external css: flickity.css */
-@import "https://fonts.googleapis.com/css?family=Pontano+Sans|Varela+Round";
-
-.projects-holder {
-  width: 100%;
+.component-holder.projects {
   padding: 10px 20px 40px 20px;
-  background-color: rgba(255, 255, 255, .8);
 }
 
 .gallery {
@@ -39,27 +35,16 @@
 }
 
 .project-link {
-  color: white;
-  font-size: 18px;
-  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
   margin: 5px;
-  border-radius: 10px;
-  text-decoration: none;
 }
 
-.project-link.green {
-  background-color: green;
-}
-
-.project-link.red {
-  background-color: red;
-}
-
-@media screen and (max-width: 1366px) {
+/*@media screen and (max-width: 1366px) {
 
   .project-img {
     width: 450px;
     height: 300px;
     margin-left: 20px;
   }
-}
+}*/

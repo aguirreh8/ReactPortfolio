@@ -4,7 +4,7 @@ import Webventeer from "../../images/webventeer.jpg";
 import WeatherStyle from "../../images/weatherstyle.jpg"
 
 const Projects = () => (
-	<div className="projects-holder">
+	<div className="component-holder projects">
 		<div className="container">
 			<h4 className="title">Projects</h4>
 			<div className="gallery js-flickity">
@@ -22,10 +22,22 @@ const Projects = () => (
 					<br />
 					<br />
 					<span>
-						<a href="https://weather-style.herokuapp.com/" target="_blank" className="project-link green" rel="noopener noreferrer">Go To Site</a>
+						<a 
+							href="https://weather-style.herokuapp.com/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
 					</span>
 					<span>
-						<a href="https://github.com/octaviahub/weatherstyle" target="_blank" className="project-link red" rel="noopener noreferrer">Go to Repo</a>
+						<a 
+							href="https://github.com/octaviahub/weatherstyle" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
 					</span>
 				</p>
 			  </div>
@@ -43,10 +55,24 @@ const Projects = () => (
 					<br />
 					<br />
 					<span>
-						<a href="https://mariuxiv08.github.io/Webventeer/index.html" target="_blank" className="project-link green" rel="noopener noreferrer">Go To Site</a>
+						<a 
+							href="https://mariuxiv08.github.io/Webventeer/index.html" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
 					</span>
 					<span>
-						<a href="https://github.com/Mariuxiv08/Webventeer" target="_blank" className="project-link red" rel="noopener noreferrer">Go to Repo</a>
+						<a 
+							href="https://github.com/Mariuxiv08/Webventeer" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
 					</span>
 				</p>
 			  </div>
