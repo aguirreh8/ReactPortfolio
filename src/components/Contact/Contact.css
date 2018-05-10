@@ -3,4 +3,31 @@
 	background-color: rgba(255, 255, 255, .8);
 	margin: 50px 0px 50px 0px;
 	padding: 10px 0 20px;
+	overflow: auto;
+}
+
+.thumbnail {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.ext-link {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.links-container {
+	float: left;
+	width: 400px;
+	/*right: 5px;*/
+	border-right: solid;
+	padding-right: 20px;
+}
+
+.email-form {
+	float: right;
+	width: 400px;
 }
