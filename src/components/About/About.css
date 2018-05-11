@@ -1,3 +1,8 @@
+.component-holder.about {
+	color: #fff;
+	background-color: rgba(59, 72, 116, .8);
+}
+
 .profile-picture {
 	width: 300px;
 	height: 300px;

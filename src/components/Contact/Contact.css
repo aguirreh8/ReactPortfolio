@@ -1,3 +1,8 @@
+.component-holder.contact {
+	color: #fff;
+	background-color: rgba(59, 72, 116, 0.8);
+}
+
 .thumbnail {
 	width: 30px;
 	height: 30px;
@@ -7,6 +12,13 @@
 .ext-link {
 	font-size: 20px;
 	font-weight: bold;
+	color: #FFF;
 	margin-bottom: 5px;
 	display: block;
+}
+
+.ext-link:hover {
+	text-decoration: none;
+	color: #C0C0C0FF;
+	transition: .2s;
 }

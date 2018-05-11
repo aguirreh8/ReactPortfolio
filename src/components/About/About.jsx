@@ -3,15 +3,15 @@ import "./About.css";
 import myPic from "../../images/me.png";
 
 const About = () => (
-	<div className="component-holder">
+	<div className="component-holder about">
 		<div className="container">
 			<h4 className="title">About</h4>
 			<div className="row">
 				<div className="col-md-5">
 					<img className="profile-picture" src={myPic} alt="Henry Aguirre" title="Henry Aguirre"/>
 				</div>
-				<div class="col"></div>
-				<div class="col-md-6">
+				<div className="col"></div>
+				<div className="col-md-6">
 					<p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
