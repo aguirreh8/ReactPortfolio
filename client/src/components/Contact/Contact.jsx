@@ -4,8 +4,8 @@ import github from "../../images/github.png";
 import linkedIn from "../../images/linkedin.png";
 import stackOverflow from "../../images/stackoverflow.png";
 import email from "../../images/email.png";
-import phone from "../../images/phone.png"
-
+import phone from "../../images/phone.png";
+import API from "../../utils/API";
 
 class Contact extends Component  {
 	state = {
@@ -21,7 +21,13 @@ class Contact extends Component  {
 	};
 
 	sendMail(name, email, subject, message) {
-		console.log(name);
+		const data = {
+			name,
+			email,
+			subject,
+			message
+		};
+		API.sendMail(data);
 	};
 
 	render() {
