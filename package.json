@@ -1,19 +1,27 @@
 {
   "name": "reactportfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "install": "^0.11.0",
-    "normalize.css": "^8.0.0",
-    "react": "^16.3.2",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
-  },
+  "version": "1.0.0",
+  "description": "personal portfilio",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn",
+    "build": "cd client && npm run build",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguirreh8/ReactPortfolio.git"
+  },
+  "author": "Henry Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguirreh8/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/aguirreh8/ReactPortfolio#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.4",
+    "xoauth2": "^1.2.0"
   }
 }
