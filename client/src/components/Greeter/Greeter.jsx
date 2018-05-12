@@ -17,7 +17,7 @@ const Greeter = () => (
 				Henry Aguirre
 			</div>
 			<div className="title-text">
-				Web developer extraordinaire
+				Full Stack Web Developer
 			</div>
 			<div className="skill-holder">
 				<img src={html} className="skill-icon" title="HTML" alt="html"/>
