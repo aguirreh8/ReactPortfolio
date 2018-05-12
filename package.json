@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/aguirreh8/ReactPortfolio/issues"
   },
-  "homepage": "https://github.com/aguirreh8/ReactPortfolio#readme",
+  "homepage": "http://aguirreh8.github.io/ReactPortfolio",
   "dependencies": {
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
