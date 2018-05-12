@@ -1,6 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Oleo+Script:400,700";
 
-
 .greeter {
 	padding: 100px 50px 150px;
 	color: #FFF;
@@ -42,4 +41,19 @@
     0% { opacity:0; }
     25% { opacity:0; }
     100% { opacity:1; }
+}
+
+@media screen and (max-width: 768px) {
+	.name-text {
+		font-size: 80px;
+	}
+
+	.title-text {
+		font-size: 40px;
+	}
+
+	.skill-icon {
+		width: 60px;
+		height: 60px;
+	}
 }

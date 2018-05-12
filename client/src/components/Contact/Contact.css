@@ -22,3 +22,7 @@
 	color: #C0C0C0FF;
 	transition: .2s;
 }
+
+.font-weight-bold {
+	text-shadow: 4px 2px 2px rgba(0, 0, 0, .85);
+}

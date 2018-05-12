@@ -6,13 +6,16 @@ import stackOverflow from "../../images/stackoverflow.png";
 import email from "../../images/email.png";
 import phone from "../../images/phone.png";
 import API from "../../utils/API";
+import REGEX from "../../utils/REGEX"
 
 class Contact extends Component  {
 	state = {
 		name: "",
-		email: "",
+		sender: "",
 		subject: "",
-		message: ""
+		message: "",
+		textState: false,
+		emailSentMessage: ""
 	};
 
 	handleInputChange = input => {
@@ -20,14 +23,43 @@ class Contact extends Component  {
 		this.setState({ [name]: value });
 	};
 
-	sendMail(name, email, subject, message) {
-		const data = {
-			name,
-			email,
-			subject,
-			message
-		};
-		API.sendMail(data);
+	validateEmail = email => {
+	  const re = REGEX.emailValidator;
+	  return re.test(email);
+	}
+
+	sendMail(name, sender, subject, message) {
+		if (name && sender && subject && message) {
+			if (this.validateEmail(sender))
+			{
+				const data = {
+					name,
+					sender,
+					subject,
+					message
+				};
+				API.sendMail(data)
+				.then(
+					this.setState({
+						textState: true,
+						emailSentMessage: "Email Sent!" 
+					})
+				);
+			} 
+			else {
+				this.setState({
+					textState: false,
+					emailSentMessage: "Invalid Email." 
+				})
+			}
+		}
+		else {
+			this.setState({
+					textState: false,
+					emailSentMessage: "Please fill out the form." 
+			})
+		}
+		
 	};
 
 	render() {
@@ -94,9 +126,9 @@ class Contact extends Component  {
 										<input 
 											type="email" 
 											className="form-control"
-											name="email"
+											name="sender"
 											onChange={this.handleInputChange}
-											value={this.state.email}  
+											value={this.state.sender}  
 											placeholder="Enter email" />
 									</div>
 								</div>
@@ -132,7 +164,7 @@ class Contact extends Component  {
 											() => 
 											this.sendMail(
 												this.state.name,
-												this.state.email,
+												this.state.sender,
 												this.state.subject,
 												this.state.message
 											)
@@ -140,6 +172,9 @@ class Contact extends Component  {
 										className="btn btn-primary btn-lg mx-auto">
 											Send
 									</button>
+									<p className={ 
+										this.state.textState ? 
+										"text-success font-weight-bold" : "text-danger font-weight-bold" }>{this.state.emailSentMessage}</p>
 								</div>
 							</form>					
 						</div>

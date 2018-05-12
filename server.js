@@ -31,10 +31,10 @@ const transporter = nodemailer.createTransport({
 
 app.post("/sendMail", function(req, res) {
 	const mailOptions = {
-		from: `${req.body.name} <${req.body.email}>`,
+		from: `${req.body.name} <${req.body.sender}>`,
 		to: "aguirreh8@gmail.com",
 		subject: req.body.subject,
-		text: req.body.message
+		text: `From: ${req.body.sender} \n ${req.body.message}`
 	}
 
 	transporter.sendMail(mailOptions, function(err, res) {

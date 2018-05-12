@@ -7,11 +7,10 @@ const About = () => (
 		<div className="container">
 			<h4 className="title">About</h4>
 			<div className="row">
-				<div className="col-md-5">
+				<div className="col">
 					<img className="profile-picture" src={myPic} alt="Henry Aguirre" title="Henry Aguirre"/>
-				</div>
-				<div className="col"></div>
-				<div className="col-md-6">
+				</div>				
+				<div className="col">
 					<p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
