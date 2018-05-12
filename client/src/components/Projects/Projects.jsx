@@ -1,7 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import Webventeer from "../../images/webventeer.jpg";
-import WeatherStyle from "../../images/weatherstyle.jpg"
+import WeatherStyle from "../../images/weatherstyle.jpg";
+import JobCards from "../../images/jobcards.jpg";
+import BurgerEater from "../../images/burgereater.jpg";
 
 const Projects = () => (
 	<div className="component-holder projects">
@@ -10,7 +12,7 @@ const Projects = () => (
 			<div className="gallery js-flickity">
 
 				<div className="gallery-cell">
-			  	<img src={WeatherStyle} className="project-img" alt="jobcards"/>
+			  	<img src={JobCards} className="project-img" alt="jobcards"/>
 			  	<p className="project-text">
 			  		<span className="project-title" alt="webventeer">JobCards</span>
 			  		<br />
@@ -80,6 +82,38 @@ const Projects = () => (
 			  		<br />
 			  		A website that helps users find volunteering events based on criteria. Uses Eventful API to find nearby events, Google Maps API 
 			  		to pinpoint locations of events (if provided in Eventful API results), and Firebase for user logins. Deployed on Github Pages.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://mariuxiv08.github.io/Webventeer/index.html" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/Mariuxiv08/Webventeer" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={BurgerEater} className="project-img" alt="burgereater"/>
+			  	<p className="project-text">
+			  		<span className="project-title">BurgerEater</span>
+			  		<br />
+			  		Type in your favorite burger and CONSUME! Uses MySQL database to store burgers, and a boolean value to check if
+			  		burger has been consumed or note.
 					<br />
 					<br />
 					<span>
