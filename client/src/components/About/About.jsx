@@ -11,11 +11,10 @@ const About = () => (
 					<img className="profile-picture" src={myPic} alt="Henry Aguirre" title="Henry Aguirre"/>
 				</div>				
 				<div className="col">
-					<p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p className="about-text">A Full Stack Web Developer who is able to take a project from conception to deployment. Always eager to learn new
+					technologies and advancements in the tech scene, latest pursuit being Web Development using React, Node.js, and MongoDB. Knows how to multitask and 
+					prioritize tasks, having worked as a general clerk in the past. Graduated with a Computer Scince degree in 2013, having worked 
+					in projects using Java, C# and T-SQL. </p>
 				</div>	
 			</div>			
 		</div>

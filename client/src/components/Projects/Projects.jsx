@@ -9,16 +9,47 @@ const Projects = () => (
 			<h4 className="title">Projects</h4>
 			<div className="gallery js-flickity">
 
+				<div className="gallery-cell">
+			  	<img src={WeatherStyle} className="project-img" alt="jobcards"/>
+			  	<p className="project-text">
+			  		<span className="project-title" alt="webventeer">JobCards</span>
+			  		<br />
+			  		Scrapes through job postings websites to create a single searching hub for the users. Allows users to create an account 
+			  		to save jobs for later viewing, as well allow them to take and notes for specified job posting. Uses MySQL server for user authentication,
+			  		job saving, and note taking through relational tables. Uses cheerio and request through express.js to scrape through sites 
+			  		Project created in React and deployed on glitch.com.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://jobcards.glitch.me/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/estivensal7/JobCards" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
 			  <div className="gallery-cell">
 			  	<img src={WeatherStyle} className="project-img" alt="weatherstyle"/>
 			  	<p className="project-text">
 			  		<span className="project-title" alt="webventeer">WeatherStyle</span>
 			  		<br />
-			  		Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			  		An application to help out the user pick what to wear based on the current weather, and also shows shopping
+			  		recommendations from Ebay.com. Uses handlebars.js to display different components based on address. 
+			  		Uses weather node package to gather weather info based on provided zip code and Ebay API to bring links to items
+			  		into a component. Deployed on Heroku free account (may be slow to start).
 					<br />
 					<br />
 					<span>
@@ -47,11 +78,8 @@ const Projects = () => (
 			  	<p className="project-text">
 			  		<span className="project-title">Webventeer</span>
 			  		<br />
-			  		Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			  		A website that helps users find volunteering events based on criteria. Uses Eventful API to find nearby events, Google Maps API 
+			  		to pinpoint locations of events (if provided in Eventful API results), and Firebase for user logins. Deployed on Github Pages.
 					<br />
 					<br />
 					<span>

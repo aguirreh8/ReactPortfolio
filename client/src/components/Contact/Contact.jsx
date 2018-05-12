@@ -69,7 +69,7 @@ class Contact extends Component  {
 					<h4 className="title">Contact Me</h4>
 					<div className="row">
 						<div className="col-md-5">
-							<p>If you would like to contact me, check any of the links below, or send an email using the form.</p>
+							<p>If you would like to contact me, or know more, check any of the links below. You can use the provided form to directly send an email.</p>
 							<a 
 								className="ext-link" 
 								href="https://github.com/aguirreh8" 
