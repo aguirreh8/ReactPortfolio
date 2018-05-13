@@ -154,7 +154,7 @@ class Contact extends Component  {
 											name="message"
 											onChange={this.handleInputChange}
 											value={this.state.message}  
-											placeholder="Enter subject"></textarea>
+											placeholder="Enter message"></textarea>
 									</div>
 								</div>
 								<div className="form-group row">
