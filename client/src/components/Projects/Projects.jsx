@@ -118,7 +118,7 @@ const Projects = () => (
 					<br />
 					<span>
 						<a 
-							href="https://mariuxiv08.github.io/Webventeer/index.html" 
+							href="https://guarded-taiga-69253.herokuapp.com/" 
 							target="_blank" 
 							className="btn btn-success project-link" 
 							role="button" 
@@ -128,7 +128,7 @@ const Projects = () => (
 					</span>
 					<span>
 						<a 
-							href="https://github.com/Mariuxiv08/Webventeer" 
+							href="https://github.com/aguirreh8/BurgerEater" 
 							target="_blank" 
 							className="btn btn-danger project-link" 
 							role="button" 
