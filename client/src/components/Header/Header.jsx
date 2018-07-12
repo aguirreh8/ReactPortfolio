@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => (
 	<nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{paddingRight: "80px", paddingLeft: "80px"}}>		
-	  		<span className="navbar-brand mb-0 h1">Henry Aguirre</span>
+	  		<span className="navbar-brand">Henry Aguirre</span>
 	  		<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
 	    		<span className="navbar-toggler-icon"></span>
 	  		</button>

@@ -11,10 +11,9 @@ const About = () => (
 					<img className="profile-picture" src={myPic} alt="Henry Aguirre" title="Henry Aguirre"/>
 				</div>				
 				<div className="col">
-					<p className="about-text">A Full Stack Web Developer who is able to take a project from conception to deployment. Always eager to learn new
-					technologies and advancements in the tech scene, latest pursuit being Web Development using React, Node.js, and MongoDB. Knows how to multitask and 
-					prioritize tasks, having worked as a general clerk in the past. Graduated with a Computer Science degree in 2013, having worked 
-					in projects using Java, C# and T-SQL. </p>
+					<p className="about-text">Hey there, I'm Henry Aguirre, and I'm a frontend web developer with years of practice in HMTL, CSS, and Javascript.
+I've also created my current projects with new tools, such as React, node.js, JQuery and MySQL. Please check out
+my work below and shoot me an email or call if you have any questions. </p>
 				</div>	
 			</div>			
 		</div>
