@@ -4,6 +4,7 @@ import Webventeer from "../../images/webventeer.jpg";
 import WeatherStyle from "../../images/weatherstyle.jpg";
 import JobCards from "../../images/jobcards.jpg";
 import BurgerEater from "../../images/burgereater.jpg";
+import MemoryGame from "../../images/memorygame.jpg";
 
 const Projects = () => (
 	<div className="component-holder projects">
@@ -138,6 +139,38 @@ const Projects = () => (
 					</span>
 				</p>
 			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={MemoryGame} className="project-img" alt="memorygame"/>
+			  	<p className="project-text">
+			  		<span className="project-title">Memory Game</span>
+			  		<br />
+			  		A memory game created in React. Updates user score and high score with states.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://aguirreh8.github.io/memoryGame/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/aguirreh8/memoryGame" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
 			</div>
 		</div>
 	</div>
