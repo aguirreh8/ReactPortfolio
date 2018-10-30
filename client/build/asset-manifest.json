@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c9c6f2d4.css",
   "main.css.map": "static/css/main.c9c6f2d4.css.map",
-  "main.js": "static/js/main.21a24f3e.js",
-  "main.js.map": "static/js/main.21a24f3e.js.map",
+  "main.js": "static/js/main.09fb112f.js",
+  "main.js.map": "static/js/main.09fb112f.js.map",
   "static\\media\\burgereater.jpg": "static/media/burgereater.cdee944c.jpg",
   "static\\media\\city.jpg": "static/media/city.74b93ec2.jpg",
   "static\\media\\expressjs.png": "static/media/expressjs.d638bd34.png",
@@ -14,5 +14,6 @@
   "static\\media\\mongodb.png": "static/media/mongodb.3851cc04.png",
   "static\\media\\nodejs.png": "static/media/nodejs.d42672d4.png",
   "static\\media\\weatherstyle.jpg": "static/media/weatherstyle.b2ff7a89.jpg",
-  "static\\media\\webventeer.jpg": "static/media/webventeer.d91f815a.jpg"
+  "static\\media\\webventeer.jpg": "static/media/webventeer.d91f815a.jpg",
+  "static\\media\\what2wear.jpg": "static/media/what2wear.c40a8e84.jpg"
 }

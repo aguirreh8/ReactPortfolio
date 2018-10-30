@@ -6,6 +6,7 @@ import JobCards from "../../images/jobcards.jpg";
 import BurgerEater from "../../images/burgereater.jpg";
 import MemoryGame from "../../images/memorygame.jpg";
 import Hangman from "../../images/hangman.jpg";
+import What2Wear from "../../images/what2wear.jpg";
 
 const Projects = () => (
 	<div className="component-holder projects">
@@ -193,6 +194,37 @@ const Projects = () => (
 					<span>
 						<a 
 							href="https://github.com/aguirreh8/Hangman-Game" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={What2Wear} className="project-img" alt="What2Wear"/>
+			  	<p className="project-text">
+			  		<span className="project-title">What 2 Wear</span>
+			  		<br />
+			  		An application that helps the user choose what to wear based on weather conditions.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://what2wear.glitch.me/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/aguirreh8/what2wear" 
 							target="_blank" 
 							className="btn btn-danger project-link" 
 							role="button" 
